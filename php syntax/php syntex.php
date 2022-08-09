@@ -21,6 +21,12 @@
     echo $x;
     echo "<br>";
     echo $y;
+    %x=5;
+    function myTest(){
+        echo"<p>variasble x inside function is : %x </p>";
+        myTest();
+        echo"<p>variable x outside function is: $x</p>";
+    }
 
     ?>
 </body>
