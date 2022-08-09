@@ -9,9 +9,9 @@
 <body>
     <?php
     $color= red;
-    echo "my car is " . $color . <"br">;
-    echo "my phone is  " .$color . <"br">;
-    echo "This pane is  " . % color . <"br">;
+    echo "my car is " . $color . "<br>";
+    echo "my phone is  " .$color . "<br>";
+    echo "This pan is  " . $color . "<br>";
     ?>
 </body>
 </html>
