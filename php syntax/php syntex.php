@@ -7,7 +7,7 @@
     <title>php</title>
 </head>
 <body>
-    <?php
+    <?php // php syntax //
     $color= red;
     echo "my car is " . $color . "<br>";
     echo "my phone is  " .$color . "<br>";
@@ -22,11 +22,27 @@
     echo "<br>";
     echo $y;
     %x=5;
-    function myTest(){
+    function myTest()  // php function
+    { 
         echo"<p>variasble x inside function is : %x </p>";
         myTest();
         echo"<p>variable x outside function is: $x</p>";
     }
+    
+function myTest() {
+ static $x=0;
+ echo $x;
+ $x++;
+ 
+ }
+ myTest();
+ echo "<br>";
+ myTest();
+ echo "<br>";
+myTest();
+
+$x = 10.365; // data tyeps flot //
+var_dump($x);
 
     ?>
 </body>
