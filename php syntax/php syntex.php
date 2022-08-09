@@ -12,7 +12,16 @@
     echo "my car is " . $color . "<br>";
     echo "my phone is  " .$color . "<br>";
     echo "This pan is  " . $color . "<br>";
-    echo "This is php syntax";
+    echo "This is php syntax" "br>" ;
+    $text="Hello world";
+    $x=5;
+    $y=10.2;
+    echo $text;
+    echo "<br>";
+    echo $x;
+    echo "<br>";
+    echo $y;
+
     ?>
 </body>
 </html>
